@@ -2,9 +2,10 @@ module github.com/JackyrDC/FinancialApp_Server
 
 go 1.22.1
 
+require github.com/gofiber/fiber/v3 v3.0.0-beta.2
+
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
-	github.com/gofiber/fiber/v3 v3.0.0-beta.2 // indirect
 	github.com/gofiber/storage/mongodb/v2 v2.0.0 // indirect
 	github.com/gofiber/utils/v2 v2.0.0-beta.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
